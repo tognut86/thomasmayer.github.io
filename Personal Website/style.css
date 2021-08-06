@@ -1,0 +1,86 @@
+html{
+    /* background-image: url(images/Carpet1.jpg); 
+    background-size: cover; */
+    /* background-position: top center;
+    background-repeat: repeat */
+    background-color: rgb(136, 213, 255)
+}
+
+body{
+    font-family: 'bebas neue',cursive;
+}
+
+a{
+color: rgb(89, 22, 151);
+    text-decoration: none;
+}
+
+/* .container{
+    
+
+    max-width: 1024px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 140px;
+} */
+
+.header-container-index{
+
+    position: fixed;
+    width: 100%;
+}
+
+header{ 
+    max-width: 1024px;
+    margin:0 auto;
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    /* position:fixed */
+}
+
+.logo{
+    color:black;
+    font-size: 5.13rem;
+}
+
+
+.navbutton{
+    font-size: 1.563rem;
+    display: inline-block;
+    position: relative;
+}
+
+.navbutton{
+    color: black;
+    display: inline-block;
+    position: relative;
+    padding:5px;
+    margin-left: 30px;
+}
+
+.navbutton:hover{
+    background-color: teal;
+    transition: 1s;
+}
+
+.main-image img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 115px;
+    width: 1300px;
+    height: 100%;
+}
+
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif; 
+
+
+/
+
